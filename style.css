@@ -164,6 +164,21 @@ main {
 .rot-3 { transform: rotate(-2deg); }
 .rot-4 { transform: rotate(4deg); }
 
+.map-button {
+  display: inline-block;
+  background: #fffdf8;
+  border: 2px solid #1a1a1a;
+  border-radius: 12px 14px 12px 16px / 16px 12px 14px 12px;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 3px 3px 0 rgba(26, 26, 26, 0.15);
+}
+
+.map-button:hover {
+  background: #fdf0c8;
+}
+
 .social-links a {
   font-size: 1.1rem;
 }
