@@ -8,27 +8,49 @@
 </head>
 <body>
 
-<header class="site-header">
-  <img src="assets/logo.jpg" alt="Skåne Wake Park logga" class="logo">
-  <h1>Skåne Wake Park</h1>
-  <p class="tagline">Wakeboard &amp; wakeskate på Ön i Limhamn, Malmö</p>
-</header>
+<div class="above-fold">
 
-<nav class="site-nav">
-  <a href="#om">Om oss</a>
-  <a href="#prova">Prova på</a>
-  <a href="#priser">Priser</a>
-  <a href="#bilder">Bilder</a>
-  <a href="#hitta">Hitta hit</a>
-  <a href="#kontakt">Kontakt</a>
-</nav>
+  <header class="site-top">
+    <img src="assets/logo.jpg" alt="Skåne Wake Park logga" class="logo">
+  </header>
+
+  <div class="hero-carousel">
+    <div class="slide-track">
+      <div class="slide"><img src="assets/WakeParkHero.jpeg" alt="Vy över Skåne Wake Park"></div>
+      <div class="slide split">
+        <img src="assets/emil-hopp.jpeg" alt="Emil hoppar">
+        <img src="assets/action-1.jpg" alt="Åkare svänger genom vattnet">
+      </div>
+      <div class="slide split">
+        <img src="assets/erik-sväng.jpeg" alt="Erik svänger">
+        <img src="assets/emil-chill.jpeg" alt="Emil chillar">
+      </div>
+    </div>
+    <div class="dots">
+      <button class="dot active" aria-label="Bild 1"></button>
+      <button class="dot" aria-label="Bild 2"></button>
+      <button class="dot" aria-label="Bild 3"></button>
+    </div>
+  </div>
+
+  <nav class="site-nav">
+    <a href="#om">Om oss</a>
+    <a href="#prova">Prova på</a>
+    <a href="#priser">Priser</a>
+    <a href="#bilder">Bilder</a>
+    <a href="#hitta">Hitta hit</a>
+    <a href="#faq">FAQ</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+</div>
 
 <main>
 
   <section id="om" class="card">
     <h2>Om oss</h2>
     <p>Skåne Wake Park drivs av Skånes Kabelsportförening – en ideell förening där alla medlemmar
-      äger och driver banan tillsammans. Vi håller till på Ön i Limhamn, mitt i Malmö, med en
+      äger och driver banan tillsammans. Vi håller till i Limhamn, Malmö, med en
       kabelbana för wakeboard och wakeskate.</p>
     <p>Hos oss är alla välkomna, från nyfikna nybörjare till de som åker varje dag. De som kör
       systemet och lär ut har många års erfarenhet av både wakeboard och att driva anläggningen –
@@ -39,8 +61,10 @@
     <h2>Vill du prova?</h2>
     <p>Du behöver ingen egen utrustning eller erfarenhet för att testa. Kom förbi under våra öppna
       tider, betala på plats och prova wakeboard för första gången – vi hjälper dig igång.</p>
-    <p class="hand-note">Osäker på om vi kör just idag? Kolla vår Facebook eller Instagram – väder
-      och vind styr ibland.</p>
+    <p class="hand-note">Osäker på om vi kör just idag? Kolla vår
+      <a href="https://www.facebook.com/skanewakepark1/" target="_blank" rel="noopener">Facebook</a>
+      eller <a href="https://www.instagram.com/skanewakepark/" target="_blank" rel="noopener">Instagram</a>
+      – väder och vind styr ibland.</p>
   </section>
 
   <section id="priser" class="card">
@@ -58,10 +82,10 @@
   <section id="bilder" class="card">
     <h2>Bilder från banan</h2>
     <div class="gallery">
-      <img src="assets/action-1.jpg" alt="Åkare svänger genom vattnet i Skåne Wake Park" class="polaroid rot-1">
-      <img src="assets/action-2.jpg" alt="Åkare drar fram med kabelbanan i bakgrunden" class="polaroid rot-2">
-      <img src="assets/action-3.jpg" alt="Ung åkare på gul wakeboard" class="polaroid rot-3">
-      <img src="assets/group.jpg" alt="Glada åkare hejar på varandra vid bryggan" class="polaroid rot-4">
+      <img src="assets/IMG_4498.jpeg" alt="Avslappning vid bryggan i solen" class="polaroid">
+      <img src="assets/action-2.jpg" alt="Åkare drar fram med kabelbanan i bakgrunden" class="polaroid">
+      <img src="assets/action-3.jpg" alt="Ung åkare på gul wakeboard" class="polaroid">
+      <img src="assets/group.jpg" alt="Glada åkare hejar på varandra vid bryggan" class="polaroid">
     </div>
   </section>
 
@@ -70,6 +94,52 @@
     <p>Vi finns på <strong>Strandgatan 50</strong> – Ön i Limhamn, Malmö.</p>
     <p><a class="map-button" href="https://share.google/0WYTFM0MVBhHc24zn" target="_blank"
         rel="noopener">📍 Öppna i Google Maps</a></p>
+  </section>
+
+  <section id="faq" class="card">
+    <h2>Vanliga frågor</h2>
+
+    <details>
+      <summary>Vilka öppettider har ni?</summary>
+      <p>Öppen åkning på söndagar 12–16. Väder och vind kan ibland göra att vi ställer in, så kolla
+        vår Facebook eller Instagram innan du kommer.</p>
+    </details>
+
+    <details>
+      <summary>Behöver jag egen utrustning?</summary>
+      <p>Nej, du behöver ingen egen utrustning eller erfarenhet för att prova. Kom förbi under våra
+        öppna tider så hjälper vi dig igång.</p>
+    </details>
+
+    <details>
+      <summary>Måste jag vara medlem för att prova på?</summary>
+      <p>Nej. Du kan prova på och betala på plats utan medlemskap. Åker du ofta lönar det sig med
+        ett 10-kort eller ett årskort, se priser ovan.</p>
+    </details>
+
+    <details>
+      <summary>Behöver jag boka i förväg?</summary>
+      <p>Nej, drop-in går bra. Men boka gärna i förväg om du kan – det underlättar för oss.</p>
+    </details>
+
+    <details>
+      <summary>Är det nybörjarvänligt?</summary>
+      <p>Ja, alla är välkomna – från nyfikna nybörjare till de som åker varje dag. De som kör
+        systemet och lär ut har många års erfarenhet av wakeboard.</p>
+    </details>
+
+    <details>
+      <summary>Finns det parkering?</summary>
+      <p>Ja, det finns gratis parkering precis intill banan.</p>
+    </details>
+
+    <details>
+      <summary>Hur vet jag om ni kör just idag?</summary>
+      <p>Väder och vind styr ibland. Kolla vår
+        <a href="https://www.facebook.com/skanewakepark1/" target="_blank" rel="noopener">Facebook</a>
+        eller <a href="https://www.instagram.com/skanewakepark/" target="_blank" rel="noopener">Instagram</a>
+        för aktuell status.</p>
+    </details>
   </section>
 
   <section id="kontakt" class="card">
@@ -89,5 +159,6 @@
   <p>Skåne Wake Park – Malmö/Limhamn &middot; Skånes Kabelsportförening</p>
 </footer>
 
+<script src="carousel.js"></script>
 </body>
 </html>
