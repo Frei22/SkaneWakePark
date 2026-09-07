@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/wakeborarding-website-swedish-ybpp63]
+    branches: [claude/wakeborarding-website-swedish-ybpp63, claude/feedback-images-site-b5jd4n]
   workflow_dispatch:
 
 permissions:
