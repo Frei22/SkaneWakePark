@@ -7,16 +7,17 @@
 <title>Skåne Wakepark – wakeboard i Limhamn, Malmö</title>
 <meta name="description" content="Skåne Wakepark är en kabelbana för wakeboard i Limhamn, Malmö. Öppen Åkning söndagar 12–16 – utrustning och coachning ingår. Drop in, inga förkunskaper krävs.">
 
-<!-- ÄNDRA DOMÄN HÄR när sajten flyttas till riktig adress (canonical + og:url + og:image) -->
-<link rel="canonical" href="https://www.skanewakepark.se/">
+<!-- ÄNDRA DOMÄN HÄR när sajten flyttas till Strato-domänen.
+     Byt även i sitemap.xml, robots.txt och JSON-LD (url + image) längst ned. -->
+<link rel="canonical" href="https://frei22.github.io/SkaneWakePark/">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="sv_SE">
 <meta property="og:site_name" content="Skåne Wakepark">
 <meta property="og:title" content="Skåne Wakepark – wakeboard i Limhamn, Malmö">
 <meta property="og:description" content="Kabelbana för wakeboard mitt i Malmö. Öppen Åkning söndagar 12–16 – utrustning och coachning ingår.">
-<meta property="og:url" content="https://www.skanewakepark.se/">
-<meta property="og:image" content="https://www.skanewakepark.se/assets/solnedgang.jpg">
+<meta property="og:url" content="https://frei22.github.io/SkaneWakePark/">
+<meta property="og:image" content="https://frei22.github.io/SkaneWakePark/assets/solnedgang.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#1b2a4a">
@@ -153,6 +154,7 @@
     <div class="gallery">
       <figure class="shot polaroid">
         <img src="assets/hopp-kicker.jpg" alt="Åkare i luften över kickern med Slingshot-bräda" loading="lazy" width="900" height="1600">
+        <figcaption class="credit">📷 @lars.photos</figcaption>
       </figure>
       <figure class="shot polaroid">
         <img src="assets/solnedgang.jpg" alt="Åkare i silhuett mot solnedgången vid hoppet" loading="lazy" width="1800" height="1350">
@@ -251,18 +253,21 @@
     <p>Skåne Wakepark bygger på ideellt engagemang. Tillsammans hjälps vi åt att hålla parken igång,
       utveckla sporten och skapa en plats där människor trivs – både på vattnet och på land.</p>
 
-    <!-- TODO: lägg in SVWF-loggan som assets/svwf-logga.png (hämtas från svwf.se) och byt ut raden nedan mot en <img>. -->
-    <p class="affiliation">
-      <a href="https://www.svwf.se/" target="_blank" rel="noopener">Medlem av Svenska Vattenskid- &amp; Wakeboardförbundet (SVWF)</a>
-    </p>
+    <div class="affiliation">
+      <span class="affiliation-label">Medlem av</span>
+      <a href="https://www.svwf.se/" target="_blank" rel="noopener">
+        <img src="assets/svwf-logga.png" alt="Svenska Vattenskid- &amp; Wakeboardförbundet (SVWF)"
+          class="svwf-logga" width="440" height="164" loading="lazy">
+      </a>
+    </div>
   </section>
 
   <section id="kontakt" class="card">
     <h2>Kontakt &amp; hitta hit</h2>
     <p>Vi finns i närheten av <strong>Strandgatan 50</strong> i Limhamn, Malmö.</p>
-    <p><a class="btn" href="https://share.google/0BuDvURpXR62pI3lE" target="_blank" rel="noopener">📍 Öppna i Google Maps</a></p>
+    <p><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Strandgatan%2050%2C%20Limhamn%2C%20Malm%C3%B6" target="_blank" rel="noopener">📍 Öppna i Google Maps</a></p>
     <div class="map-embed">
-      <iframe src="https://maps.google.com/maps?q=Sk%C3%A5nes%20Kabelsportf%C3%B6rening%2C%20Malm%C3%B6&output=embed"
+      <iframe src="https://maps.google.com/maps?q=Strandgatan%2050%2C%20Limhamn%2C%20Malm%C3%B6&output=embed"
         title="Karta till Skåne Wakepark" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
@@ -289,8 +294,8 @@
   "name": "Skåne Wakepark",
   "alternateName": "Skånes Kabelsportförening",
   "description": "Kabelbana för wakeboard i Limhamn, Malmö. Öppen Åkning för alla söndagar 12–16, utrustning och coachning ingår.",
-  "url": "https://www.skanewakepark.se/",
-  "image": "https://www.skanewakepark.se/assets/solnedgang.jpg",
+  "url": "https://frei22.github.io/SkaneWakePark/",
+  "image": "https://frei22.github.io/SkaneWakePark/assets/solnedgang.jpg",
   "telephone": "+46708969033",
   "email": "skanewakepark@gmail.com",
   "address": {
@@ -299,13 +304,19 @@
     "addressLocality": "Limhamn, Malmö",
     "addressCountry": "SE"
   },
-  "hasMap": "https://share.google/0BuDvURpXR62pI3lE",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Strandgatan%2050%2C%20Limhamn%2C%20Malm%C3%B6",
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": "Sunday",
     "opens": "12:00",
     "closes": "16:00"
   }],
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "Svenska Vattenskid- & Wakeboardförbundet",
+    "alternateName": "SVWF",
+    "url": "https://www.svwf.se/"
+  },
   "sameAs": [
     "https://www.facebook.com/skanewakepark1/",
     "https://www.instagram.com/skanewakepark/"

@@ -622,9 +622,24 @@ footer {
 
 .affiliation {
   margin-top: 18px;
-  padding-top: 12px;
+  padding-top: 14px;
   border-top: 2px dashed var(--muted);
-  font-size: 0.9rem;
+}
+
+.affiliation-label {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.svwf-logga {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .footer-credit {

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.skanewakepark.se/sitemap.xml
+Sitemap: https://frei22.github.io/SkaneWakePark/sitemap.xml
