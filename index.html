@@ -251,10 +251,13 @@
     <p>Skåne Wakepark bygger på ideellt engagemang. Tillsammans hjälps vi åt att hålla parken igång,
       utveckla sporten och skapa en plats där människor trivs – både på vattnet och på land.</p>
 
-    <!-- TODO: lägg in SVWF-loggan som assets/svwf-logga.png (hämtas från svwf.se) och byt ut raden nedan mot en <img>. -->
-    <p class="affiliation">
-      <a href="https://www.svwf.se/" target="_blank" rel="noopener">Medlem av Svenska Vattenskid- &amp; Wakeboardförbundet (SVWF)</a>
-    </p>
+    <div class="affiliation">
+      <span class="affiliation-label">Medlem av</span>
+      <a href="https://www.svwf.se/" target="_blank" rel="noopener">
+        <img src="assets/svwf-logga.png" alt="Svenska Vattenskid- &amp; Wakeboardförbundet (SVWF)"
+          class="svwf-logga" width="440" height="164" loading="lazy">
+      </a>
+    </div>
   </section>
 
   <section id="kontakt" class="card">
@@ -306,6 +309,12 @@
     "opens": "12:00",
     "closes": "16:00"
   }],
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "Svenska Vattenskid- & Wakeboardförbundet",
+    "alternateName": "SVWF",
+    "url": "https://www.svwf.se/"
+  },
   "sameAs": [
     "https://www.facebook.com/skanewakepark1/",
     "https://www.instagram.com/skanewakepark/"
