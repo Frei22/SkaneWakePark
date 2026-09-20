@@ -334,29 +334,12 @@ a:hover { color: var(--primary); }
   border-right: none;
 }
 
-/* --- fotokredit --- */
+/* --- bildram --- */
 
 .shot {
   position: relative;
   margin: 0;
   overflow: hidden;
-}
-
-.credit {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  max-width: calc(100% - 10px);
-  z-index: 2;
-  font-family: var(--font-body);
-  font-size: 10px;
-  letter-spacing: 0.5px;
-  line-height: 1;
-  padding: 3px 5px;
-  color: #fff;
-  background: rgba(27, 42, 74, 0.55);
-  border-radius: 2px;
-  pointer-events: none;
 }
 
 .hero-carousel::after {
@@ -391,16 +374,6 @@ a:hover { color: var(--primary); }
   text-shadow: 3px 3px 0 var(--ink);
 }
 
-.hero-sub {
-  margin: 0;
-  font-family: var(--font-hand);
-  font-weight: 700;
-  font-size: clamp(22px, 3vw, 32px);
-  letter-spacing: 1px;
-  color: var(--accent);
-  text-shadow: 2px 2px 0 var(--ink);
-}
-
 .hero-message .btn {
   pointer-events: auto;
 }
@@ -427,11 +400,6 @@ a:hover { color: var(--primary); }
 }
 
 .dot.active { background: var(--accent); }
-
-.slide .credit {
-  top: 8px;
-  bottom: auto;
-}
 
 /* --- nav --- */
 
